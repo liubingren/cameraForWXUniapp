@@ -42,7 +42,7 @@
 				canvas: null,
 				filePath: '',
 				items: [{
-						value: '女',
+						value: 'W',
 						name: '女',
 						checked: 'true'
 					},
