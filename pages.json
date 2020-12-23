@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/camera/camera",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "皮肤创面图片采集"
+			}
+		}, {
+			"path": "pages/formPage/formPage",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "皮肤创面图片采集"
+			}
+		}, {
+			"path": "pages/uploadImage/uploadImage",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "皮肤创面图片采集"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/status/status",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "皮肤创面图片采集"
+			}
+		}
+
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#c31323",
+		"backgroundColor": "#c31323"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#c31323",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+			"pagePath": "pages/camera/camera",
+			"iconPath": "static/icon-menu-favorite.png",
+			"selectedIconPath": "static/icon-menu-favorite-selected.png",
+			"text": "相机"
+		}, {
+			"pagePath": "pages/me/me",
+			"iconPath": "static/icon-menu-user.png",
+			"selectedIconPath": "static/icon-menu-user-selected.png",
+			"text": "我"
+		}]
+	}
+}
